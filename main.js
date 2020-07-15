@@ -1,3 +1,42 @@
+//lev 1_1_1
+let adresse = ["Meinestrasse", "12345", "Köln", "Nordrhein-westfalen"];
+let besteFreunde = ["Ivana", "Sanja", "Marina", "Maja", "Matija"]
+let teilnehmer = ["Yuho", "Inna", "Karim", "Abdulhaq", "Isabelle", "Yahya", "Tobias", "Dirk"]
+let person = ["Dirk", "Jasper", "DJ", "40", "Sing My Song", "Deutschland", "SuperCode"];
+    console.log(adresse);
+    console.log(besteFreunde);
+    console.log(teilnehmer);
+    console.log(person);
+
+    person.push(adresse);
+    console.log(person)
+    person.push(besteFreunde);
+    console.log(person)
+    person.push(teilnehmer);
+    console.log(person)
+
+//lev 1_1_2
+console.log(person.length);
+console.log(person);
+console.log(adresse);
+console.log(besteFreunde);
+console.log(teilnehmer);
+
+// //lev 1_2
+//different ways of writing arrays
+var meineTrainers1 = ["Sam", "Christian", "Anass", "Michal"];
+console.log(meineTrainers1);
+
+var meineTrainers2 = new Array("Sam", "Christian", "Anass", "Michal");
+console.log(meineTrainers2);
+
+var meineTrainer3 = new Array();
+meineTrainer3[0] = "Sam";
+meineTrainer3[1] = "Christian";
+meineTrainer3[2] = "Anass";
+meineTrainer3[3] = "Michal";
+console.log(meineTrainer3);
+
 // Lev1_5_1_js-vertiefung_arrays_push()
 let songs = ["Bohemian Rhapsody", "Stairway to Heaven", "Hotel California"];
 songs.push("Madness", "Under Pressure", "Best Of You")
